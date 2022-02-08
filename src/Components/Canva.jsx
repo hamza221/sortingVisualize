@@ -18,7 +18,7 @@ export default function Canva(props) {
   }, []);
   window.addEventListener("resize", getListSize);
   return (
-    <div className="border-2 border-gray-300 rounded-lg absolute bottom-1 w-11/12  h-5/6 " style={{left:"4%"}}>
+    <div className="border-2 border-gray-300 rounded-lg absolute bottom-3 w-11/12  h-5/6 " style={{left:"4%"}}>
       <div ref={canvaRef} className="w-full h-full px-4 pb-9   flex ">
         {props.data.map((elem, i) => {
           let styles = {};
